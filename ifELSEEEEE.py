@@ -7,4 +7,5 @@ else:
 
 x = int(input("How much is your bill"))
 y = int(input("Would you like to tip 0%, 15%, 20%, or 25%"))
-print (x*2)
+if y == int(0):
+    print ("Your bill comes out to" + int(x))
